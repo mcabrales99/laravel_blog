@@ -129,5 +129,10 @@ class PostsController extends \BaseController {
 		return Redirect::action ('PostsController@index');
 	}
 
-
+	public function search()
+	{
+		$posts = Post::where('title','like', Input::get('search'))->paginate(10);
+		return View::make('posts.index')->with('posts', $posts);
+		
+	}
 }
