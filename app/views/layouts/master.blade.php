@@ -29,8 +29,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+        @if (Auth::check())
         <li><a href="/posts/create">Create a Post!</a></li>
-       </ul> 
+        @endif
+        <li class="form-group">
+        <li>{{ Form::open(['method'=> 'GET', 'action' => 'PostsController@search'])}}</li>
+        <li><input type="text" class="form-control" placeholder="Search Blog" name="search"></li>
+        <li><button type="submit" class="btn btn-default">Submit</button></li>
+        {{Form::close()}}
+        </ul>
         @if (Auth::check())
             <ul class="nav navbar-nav navbar-right">
             <li><a href="/logout">Logout</a></li>
