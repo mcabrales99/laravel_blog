@@ -58,12 +58,11 @@ class HomeController extends BaseController {
     		return Redirect::back();
 		}
 	}
-	
+
 	public function doLogout()	{
 
 		Auth::logout();
 		return Redirect::intended('/posts');
-
 	}
 
 
