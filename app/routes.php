@@ -27,6 +27,7 @@ Route::post('/login', 'HomeController@doLogin');
 
 Route::get('/logout', 'HomeController@doLogout');
 
+Route::get('/search', 'PostsController@search');
 
 
 
