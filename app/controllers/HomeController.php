@@ -20,4 +20,51 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
+	public function showResume()
+	{
+		return View::make('resume');
+	}
+
+	public function showPortfolio()
+	{
+		return View::make('portfolio');
+	}
+
+	public function showRollDice($guess)
+	{
+	    $data = [];
+	    $data['guess'] = $guess;
+	    $data['random'] = rand(1, 6);
+	    return View::make('rolldice')->with($data);
+	}
+	public function showLogin()
+	{
+		return View::make('blog_login');
+	}
+
+	public function doLogin()
+
+	{
+		$email = Input::get('email');
+		$password = Input::get('password'); 
+
+		if (Auth::attempt(array('email' => $email, 'password' => $password))) {
+    		
+			Session::flash('errorMessage', 'Your are logged in');
+    		return Redirect::intended('/posts');
+		} else {
+			Session::flash('errorMessage', 'Unsucccessful log in attempt');
+	        
+    		return Redirect::back();
+		}
+	}
+	
+	public function doLogout()	{
+
+		Auth::logout();
+		return Redirect::intended('/posts');
+
+	}
+
+
 }
