@@ -5,7 +5,7 @@ Index page
 @stop
 
 @section('content')
-<h1 class= 'container'>All My Posts</h1>
+<h1 class= 'container'>Posts</h1>
     @foreach($posts as $post)
 <div class= 'container'>
     <h2><a href="{{{ action('PostsController@show', $post->id)}}}">{{{ $post->title }}}</a></h2>
