@@ -11,18 +11,22 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
+Route::get('/', 'HomeController@showWelcome');
 
-});
+Route::get('/resume', 'HomeController@showResume');
 
-Route::get('/resume', function()
-{
-    return "This is my resume!";
-});
+Route::get('/portfolio', 'HomeController@showPortfolio');
 
-Route::get('/portfolio', function()
-{
-    return "This is my portfolio!";
-});
+Route::get('/rolldice/{guess}', 'HomeController@showRollDice');
+
+Route::resource('/posts','PostsController');
+
+Route::get('/login', 'HomeController@showLogin');
+
+Route::post('/login', 'HomeController@doLogin');
+
+Route::get('/logout', 'HomeController@doLogout');
+
+
+
+
