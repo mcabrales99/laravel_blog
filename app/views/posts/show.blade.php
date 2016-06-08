@@ -15,9 +15,9 @@ Show page
 
             @if (Auth::check())
            <button><a href="{{action('PostsController@edit', $post->id) }}">Edit here</a></button>
-        {{Form::open(['method' => 'DELETE', 'action' => ['PostsController@destroy', $post->id]])}}
-        <button type='submit'>Delete this post</button>
-        {{Form::close()}}
+            {{Form::open(['method' => 'DELETE', 'action' => ['PostsController@destroy', $post->id]])}}
+           <button type='submit'>Delete this post</button>
+            {{Form::close()}}
          @endif
         
         </div>
