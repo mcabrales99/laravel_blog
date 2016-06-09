@@ -3,12 +3,20 @@
 <head>
     <title>@yield('title')</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<style type="text/css">{
-        #top-heading    {padding-left: 200px;}
-}
-/*body {
-    background-image: url("blog_img/clouds.jpg");
-    }*/
+<style type="text/css">
+
+        #top-heading    {
+            padding-left: 200px;
+        }
+        
+        #navsearch {
+            padding-top: 10px;
+        }
+      
+
+
+
+
 </style>
 
 </head>
@@ -27,15 +35,15 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="navsearch">
       <ul class="nav navbar-nav">
         @if (Auth::check())
         <li><a href="/posts/create">Create a Post!</a></li>
         @endif
         <li class="form-group">
         <li>{{ Form::open(['method'=> 'GET', 'action' => 'PostsController@search'])}}</li>
-        <li><input type="text" class="form-control" placeholder="Search Blog" name="search"></li>
-        <li><button type="submit" class="btn btn-default">Submit</button></li>
+        <li><input id= type="text" class="form-control" placeholder="Search Blog" name="search"></li>
+        <li><button id= 'navbutton' type="submit" class="btn btn-default">Submit</button></li>
         {{Form::close()}}
         </ul>
         @if (Auth::check())
