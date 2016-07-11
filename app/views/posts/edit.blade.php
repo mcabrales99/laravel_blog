@@ -12,7 +12,7 @@ Edit page
 {{ Form::label('title', 'Title') }}
 {{ Form::text('title', null) }}
 {{ Form::label('content', 'Content') }}
-{{ Form::textarea('content', null) }}
+{{ Form::text('content', null) }}
 {{ Form::submit('submit') }}
 {{ Form::close() }}
 @stop

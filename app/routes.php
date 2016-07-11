@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'PostsController@index');
+Route::get('/', 'HomeController@showPortfolio');
 
 Route::get('/resume', 'HomeController@showResume');
 
@@ -28,6 +28,8 @@ Route::post('/login', 'HomeController@doLogin');
 Route::get('/logout', 'HomeController@doLogout');
 
 Route::get('/search', 'PostsController@search');
+
+Route::get('/posts', 'PostsController@index');
 
 
 
