@@ -11,7 +11,7 @@
     <h1>Resume</h1> 
             <h3>(956)-966-7058</h3>
             <h3>mcabrales99@gmail.com</h3> 
-            <h3><a href="http://linkedin.com/in/maurocabrales">www.linkedin.com/in/maurocabrales</a></h3>
+            <h3><a href="http://linkedin.com/in/maurocabrales">linkedin.com/in/maurocabrales</a></h3>
             <h3><a href='https://github.com/mcabrales99'>github.com/mcabrales99</a></h3>
         
         <h3>Profile</h3>
