@@ -65,5 +65,9 @@ class HomeController extends BaseController {
 		return Redirect::intended('/posts');
 	}
 
+	public function showProjects()
+	{
+		return View::make('projects');
+	}
 
 }

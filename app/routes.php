@@ -31,5 +31,7 @@ Route::get('/search', 'PostsController@search');
 
 Route::get('/posts', 'PostsController@index');
 
+Route::get('/projects', 'HomeController@showProjects');
+
 
 
