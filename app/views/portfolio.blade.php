@@ -18,7 +18,7 @@
                 <div class="col-md-8">
                      <h1>Mauro Cabrales</h1>
                      <h4>Entry Level Full Stack Web Developer</h4>
-                     <h4>I am originally form south texas(Mcallen area), and now have become a resident of San Antonio. I moved here after 15 years of a rewarding career in Emergency Medical Services. I graduated from University of Texas Rio Grande Valley with a Bachelors in Business Administration with a major in Computer Information Systems. To further my skills I attended CodeUp full stack program and am ready to transition to a full time web developer.</h4>
+                     <h4>I am originally from south texas(Mcallen area), and now have become a resident of San Antonio. I moved here after 15 years of a rewarding career in Emergency Medical Services. I graduated from University of Texas Rio Grande Valley with a Bachelors in Business Administration with a major in Computer Information Systems. To further my skills I attended CodeUp full stack program and am ready to transition to a full time web developer.</h4>
                      <br>
                         <h4>I worked on multiple projects using these languages</h4>
                      <br>                   
