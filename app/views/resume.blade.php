@@ -11,8 +11,8 @@
     <h1>Resume</h1> 
             <h3>(956)-966-7058</h3>
             <h3>mcabrales99@gmail.com</h3> 
-            <h3><a href="www.linkedin.com/in/maurocabrales">www.linkedin.com/in/maurocabrales</a></h3>
-            <h3><a href='github.com/mcabrales99'>github.com/mcabrales99</a></h3>
+            <h3><a href="http://linkedin.com/in/maurocabrales">www.linkedin.com/in/maurocabrales</a></h3>
+            <h3><a href='https://github.com/mcabrales99'>github.com/mcabrales99</a></h3>
         
         <h3>Profile</h3>
         <h4>Dedicated and motivated Computer Information Systems graduate and former EMT with 15 years leadership, communication, and critical thinking making a career change into software development. Currently enjoy working with full stack projects individually and in a team environment. Ending an intensive 16-week program in modern web technologies to further industry knowledge.
