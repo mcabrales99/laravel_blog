@@ -5,21 +5,33 @@
 <head>
     <title>Projects</title>
 </head>
+<style type="text/css">
+
+
+</style>
 <body>
 @section('content')
 <div class="container">
-<div class= 'row'>
-        <div class="col-md-12">
-            <div class='col-md-4'>
-                <a href="posts"><img src="blog_img/blog_pic.png" style="width:304px;height:200px;"></a>
+    <div class= 'row'>
+                <div class='col-md-4'>
+                    <a href="posts" id="thumb"><img src="blog_img/blog_pic.png" style="height:200px;"></a>
+                   <br>
+                   <br>
+                    <a href="http://mcabrales99.github.io/whack-a-mole.html" id="thumb"><img src="blog_img/whack_screenshot.png" style="height:200px;"></a>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="col-md-8">
+                <p class="paragraph" style="font-size: 20px;">The Blog post is an example blog page created using Laravel Blade system. This website is made using Object Oriented Programming with a connection to a MySql pro database. Information is extracted and displayed using the CRUD(create,read,update,delete) features that Laravel offers. The Objects all have multiple methods for each User and Posts. The login is also protected with Laravel security that protects from cross scripting hacks. This example blog allows the user to create,edit,delete Posts post any online blog necessities.</p>
+                <br>
+                <div style="font-size:20px;">The whack-a-mole game is an example using JQuery to animate the arcade favorite. The objective of the game is to click on a mole when it appears on the screen coming out of it's hole. If the mole is hit, a point will be accrued, otherwise a point will be deducted. The start prompt will initializ a timer and will stop the game after 30 seconds. The toggling of the moles creates a "add class" and "remove class" using CSS opacity at the same time. Check it out and enjoy the game. 
+                
+            </div>  
             </div>
-        </div>    
+            <br>
+            <br> 
+             
+    </div>
+    </div>
+        
+
 </body>
 </html>
