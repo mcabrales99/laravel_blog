@@ -36,7 +36,6 @@ body {
       <ul class="nav navbar-nav">
         <li class="active"><a href="resume">Resume<span class="sr-only">(current)</span></a></li>
         <li><a href="projects">Projects</a></li>
-        <li><a href="#">Contact me</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="https://github.com/mcabrales99">My Github</a></li>
