@@ -158,7 +158,7 @@ button.botButton  {
   color: blue
   font-size:30px;
 }
-img.img-responsive1  {
+img.box  {
 height: 400px;
 width: 530px;
 
@@ -200,11 +200,11 @@ width: 530px;
       <div class="row">
           <div class="col-md-6 img-responsive">
             <h3 class="title">Cavazos Catering</h3> 
-            <a href="www.cavazoscatering.com"><img src="blog_img/cavazosSS.png" class="cava"></a> 
+            <a href="http://www.cavazoscatering.com"><img src="blog_img/cavazosSS.png" class="cava"></a> 
           </div>
           <div class="col-md-6 img-responsive">
             <h3 class="title">Mserrano Construction</h3> 
-            <a href="www.cavazoscatering.com"><img src="blog_img/mserranoSS.png" class="cava"></a> 
+            <a href="http://www.mserranoconstruction.com"><img src="blog_img/mserranoSS.png" class="cava"></a> 
           </div>
       </div>
 </div>
@@ -216,22 +216,19 @@ width: 530px;
             <p class="backp col-md-6">I served my community as an EMT for 16 years. In between that time I earned my degree, a Bachelors in Business Admin with a major in Computer Information Systems. Afterwards, I decided to attend a Software developer program and moved to San Antonio to achieve my goals. I currently reside here with my small family and support my Dallas Cowboys. </p>
           <div id="slideshow" class="col-md-offset-6">
              <div>
-               <img class="img-responsive1" src="blog_img/medCare.jpg">
+               <img class="img-responsive" class="box"src="blog_img/medCare.jpg">
              </div>
              <div>
-               <img class="img-responsive1" src="blog_img/valley.jpg">
+               <img class="img-responsive" class="box" src="blog_img/valley.jpg">
              </div>
              <div>
-               <img class="img-responsive1" src="blog_img/grad.jpg">
+               <img class="img-responsive" class="box" src="blog_img/grad.jpg">
              </div>
              <div>
-               <img class="img-responsive1" src="blog_img/codeup.jpg">
+               <img class="img-responsive" class="box" src="blog_img/codeup.jpg">
              </div>
              <div>
-               <img class="img-responsive1" src="blog_img/fam5.jpg">
-             </div>
-             <div>
-               <img class="img-responsive1" src="blog_img/cowboys.jpg">
+               <img class="img-responsive" class="box" src="blog_img/cowboys.jpg">
              </div>
           </div>
     </div>
