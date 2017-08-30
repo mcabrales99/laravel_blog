@@ -216,7 +216,7 @@ width: 530px;
             <p class="backp col-md-6">I served my community as an EMT for 16 years. In between that time I earned my degree, a Bachelors in Business Admin with a major in Computer Information Systems. Afterwards, I decided to attend a Software developer program and moved to San Antonio to achieve my goals. I currently reside here with my small family and support my Dallas Cowboys. </p>
           <div id="slideshow" class="col-md-offset-6">
              <div>
-               <img class="img-responsive" class="box"src="blog_img/medCare.jpg">
+               <img class="img-responsive" class="box" src="blog_img/medCare.jpg">
              </div>
              <div>
                <img class="img-responsive" class="box" src="blog_img/valley.jpg">
