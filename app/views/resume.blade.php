@@ -8,6 +8,13 @@
 
 @section('content')
     <div class = container>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <h1>Resume</h1> 
             <h3>(956)-966-7058</h3>
             <h3>mcabrales99@gmail.com</h3> 
