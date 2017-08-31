@@ -63,6 +63,7 @@ font-family: 'Raleway', sans-serif;
     margin:auto;
     display:block;
     align-self: center;
+    white-space: normal;
 
 }
 #second {
@@ -158,12 +159,17 @@ button.botButton  {
   color: blue
   font-size:30px;
 }
-img.box  {
+/*img.box  {
 height: 400px;
 width: 530px;
-
+*/
 
 }
+.responsive-width {
+    font-size: 3vw;
+    word-break: 
+}
+
 </style>
     <section id='first'>
         <div class= "container-fluid">
@@ -174,23 +180,23 @@ width: 530px;
     <br>
     <h1 class="sentence" class="col-md-4 col-md-offset-4">How does your<div id ="phrase"></div> look online?</h1>
             
-    <a href=#second><button id="centerButton" type="button" class="btn btn-primary img-responsive">Let's find the best you online!</button></a>
+    <a href=#second><button id="centerButton" type="button" class="btn btn-primary responsive-width">Let's find the best you online!</button></a>
     </div>
     </section>
     <section id='second'>
         <div class="container-fluid">
             <h3 class="title2">No matter what type of business you are, the proper online prescence is important. Your website <strong>should</strong></h3>
                 <div class="row" id="sec2module">
-                    <img class="col-md-5 img-responsive" src="blog_img/laptop.jpg"></img>
-                    <p class="descript" class="col-md-7">Be visibly excellent in any device! Responsive to tablets, phones, and desktops keeping customers happy</p>
+                    <img class="col-md-6 img-responsive" src="blog_img/laptop.jpg"></img>
+                    <p class="descript" class="col-md-6">Be visibly excellent in any device! Responsive to tablets, phones, and desktops keeping customers happy</p>
                 </div>
                 <div class="row" id="sec2module">
-                    <img class="col-md-5 img-responsive" src="blog_img/bootstrap.jpg"></img>
-                    <p class="descript" class="col-md-7">Enjoy custom design knowing your business will not be restricted by template on the create-your-own sites. Time is your most important resource, free build sites are self-labor heavy and the hidden fees add up at the end.</p>
+                    <img class="col-md-6 img-responsive" src="blog_img/bootstrap.jpg"></img>
+                    <p class="descript" class="col-md-6">Enjoy custom design knowing your business will not be restricted by template on the create-your-own sites. Time is your most important resource, free build sites are self-labor heavy and the hidden fees add up at the end.</p>
                 </div>
                 <div class="row" id="sec2module">
-                    <img class="col-md-5 img-responsive" src="blog_img/listWall.jpg"></img>
-                    <p class="descript" class="col-md-7">The Power of one! I will be directing the whole process and am available with any questions or concerns. </p>
+                    <img class="col-md-6 img-responsive" src="blog_img/listWall.jpg"></img>
+                    <p class="descript" class="col-md-6">The Power of one! I will be directing the whole process and am available with any questions or concerns.</p>
                 </div>
         </div>
     </section>
@@ -198,13 +204,13 @@ width: 530px;
 <div class="container">
   <h3 class="title2">Check out some of my sites!</h3>
       <div class="row">
-          <div class="col-md-6" class="img-responsive">
+          <div class="col-sm-6">
             <h3 class="title">Cavazos Catering</h3> 
-            <a href="http://www.cavazoscatering.com"><img src="blog_img/cavazosSS.png" class="cava"></a> 
+            <a href="http://www.cavazoscatering.com"><img class="img-responsive" src="blog_img/cavazosSS.png"></a> 
           </div>
-          <div class="col-md-6" class="img-responsive">
+          <div class="col-sm-6">
             <h3 class="title">Mserrano Construction</h3> 
-            <a href="http://www.mserranoconstruction.com"><img src="blog_img/mserranoSS.png" class="cava"></a> 
+            <a href="http://www.mserranoconstruction.com"><img class="img-responsive" src="blog_img/mserranoSS.png"></a> 
           </div>
       </div>
 </div>
