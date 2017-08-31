@@ -198,11 +198,11 @@ width: 530px;
 <div class="container">
   <h3 class="title2">Check out some of my sites!</h3>
       <div class="row">
-          <div class="col-md-6 img-responsive">
+          <div class="col-md-6" class="img-responsive">
             <h3 class="title">Cavazos Catering</h3> 
             <a href="http://www.cavazoscatering.com"><img src="blog_img/cavazosSS.png" class="cava"></a> 
           </div>
-          <div class="col-md-6 img-responsive">
+          <div class="col-md-6" class="img-responsive">
             <h3 class="title">Mserrano Construction</h3> 
             <a href="http://www.mserranoconstruction.com"><img src="blog_img/mserranoSS.png" class="cava"></a> 
           </div>
