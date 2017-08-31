@@ -1,0 +1,143 @@
+#first {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/sf.jpg');
+  padding-top: 90px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Raleway",Times,serif;
+  padding-bottom: 400px;
+  background-position: center center;
+}
+#second {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/cityblack.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Raleway",Times,serif;
+  background-position: center center;
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+#third {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/sfCity.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Raleway",Times,serif;
+  background-position: center center;
+  padding-bottom: 400px;
+  padding-top: 100px;
+  }
+#fourth {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/beachRoad.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Raleway",Times,serif;
+  background-position: center center;
+  padding-bottom: 300px;
+  padding-top: 100px;
+  }
+  #fifth {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/sf7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Raleway",Times,serif;
+  background-position: center center;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  }
+h1.name {
+
+    color: white;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive; 
+}
+h3.title {
+    text-align: left;
+    color: white;
+    font-size: 30px;
+}
+h3.title2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+h1.sentence {
+
+color: white;
+font-size: 60px;
+text-align: center;
+padding-bottom: 50px;
+}
+h1.backg {
+
+color: white;
+font-size: 60px;
+text-align: center;
+padding-bottom: 50px;
+font-family: 'Raleway', sans-serif;
+}
+#centerButton   {
+    font-size: 30px;
+    text-align: center;
+    color: goldenrod;
+    margin:auto;
+    display:block;
+    align-self: center;
+    white-space: normal;
+}
+p.descript   {
+    text-align: center;
+    font-size: 35px;
+    color: white; 
+}
+.top    {
+    padding-bottom: 30px;
+}
+#sec2module {
+    padding: 70px;
+}
+img.cava{
+height: 300px;
+padding: 20px;
+}
+#slideshow {
+  position: relative;
+  width: 550px;
+  height: 450px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+p.backp {
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-right: 60px;
+}
+label {
+  color: white;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+}
+button.botButton  {
+  font-family: "Raleway";
+  color: blue
+  font-size:30px;
+}
+/*img.box  {
+height: 400px;
+width: 530px;
+*/
+
+}
+.responsive-width {
+    font-size: 3vw;
+    word-break: 
+}
