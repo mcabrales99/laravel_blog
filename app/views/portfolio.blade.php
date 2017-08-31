@@ -6,11 +6,10 @@
 <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet'>
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-<link rel="icon" href="/css/webDevicon.png">
+<link rel="shortcut icon" href="{{ asset('/css/webDevicon.png') }}">
+
 {{ HTML::style('css/css.css'); }} 
 {{ HTML::script('js/scrollTo.js'); }}
-
-
 @section('content')
     <section id='first'>
         <div class= "container-fluid">
