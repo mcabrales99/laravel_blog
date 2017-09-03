@@ -27,15 +27,15 @@
         <div class="container-fluid">
             <h3 class="title2">No matter what type of business you are, the proper online prescence is important. Your website <strong>should</strong></h3>
                 <div class="row" id="sec2module">
-                    <img class="col-md-6 img-responsive" src="blog_img/laptop.jpg"></img>
+                    <img class="col-md-6 img-responsive" src="blog_img/laptop-min.jpg"></img>
                     <p class="descript" class="col-md-6">Be visibly excellent in any device! Responsive to tablets, phones, and desktops keeping customers happy</p>
                 </div>
                 <div class="row" id="sec2module">
-                    <img class="col-md-6 img-responsive" src="blog_img/bootstrap.jpg"></img>
+                    <img class="col-md-6 img-responsive" src="blog_img/bootstrap-min.jpg"></img>
                     <p class="descript" class="col-md-6">Enjoy custom design knowing your business will not be restricted by template on the create-your-own sites. Time is your most important resource, free build sites are self-labor heavy and the hidden fees add up at the end.</p>
                 </div>
                 <div class="row" id="sec2module">
-                    <img class="col-md-6 img-responsive" src="blog_img/listWall.jpg"></img>
+                    <img class="col-md-6 img-responsive" src="blog_img/listWall-min.jpg"></img>
                     <p class="descript" class="col-md-6">The Power of one! I will be directing the whole process and am available with any questions or concerns.</p>
                 </div>
         </div>
@@ -46,11 +46,11 @@
       <div class="row">
           <div class="col-sm-6">
             <h3 class="title">Cavazos Catering</h3> 
-            <a href="http://www.cavazoscatering.com"><img class="img-responsive" src="blog_img/cavazosSS.png"></a> 
+            <a href="http://www.cavazoscatering.com"><img class="img-responsive" src="blog_img/cavazosSS-min.png"></a> 
           </div>
           <div class="col-sm-6">
             <h3 class="title">Mserrano Construction</h3> 
-            <a href="http://www.mserranoconstruction.com"><img class="img-responsive" src="blog_img/mserranoSS.png"></a> 
+            <a href="http://www.mserranoconstruction.com"><img class="img-responsive" src="blog_img/mserranoSS-min.png"></a> 
           </div>
       </div>
 </div>
@@ -62,19 +62,19 @@
             <p class="backp col-md-6">I served my community as an EMT for 16 years. In between that time I earned my degree, a Bachelors in Business Admin with a major in Computer Information Systems. Afterwards, I decided to attend a Software developer program and moved to San Antonio to achieve my goals. I currently reside here with my small family and support my Dallas Cowboys. </p>
           <div id="slideshow" class="col-md-offset-6">
              <div>
-               <img class="img-responsive" class="box" src="blog_img/medCare.jpg">
+               <img class="img-responsive" class="box" src="blog_img/medCare-min.jpg">
              </div>
              <div>
-               <img class="img-responsive" class="box" src="blog_img/valley.jpg">
+               <img class="img-responsive" class="box" src="blog_img/valley-min.jpg">
              </div>
              <div>
-               <img class="img-responsive" class="box" src="blog_img/grad.jpg">
+               <img class="img-responsive" class="box" src="blog_img/grad-min.jpg">
              </div>
              <div>
-               <img class="img-responsive" class="box" src="blog_img/codeup.jpg">
+               <img class="img-responsive" class="box" src="blog_img/codeup-min.jpg">
              </div>
              <div>
-               <img class="img-responsive" class="box" src="blog_img/cowboys.jpg">
+               <img class="img-responsive" class="box" src="blog_img/cowboys-min.jpg">
              </div>
           </div>
     </div>

@@ -1,5 +1,5 @@
 #first {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/sf.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/-min.jpg');
   padding-top: 90px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,7 +8,7 @@
   background-position: center center;
 }
 #second {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/cityblack.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/cityblack-min.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Raleway",Times,serif;
@@ -17,7 +17,7 @@
   padding-top: 100px;
 }
 #third {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/sfCity.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/sfCity-min.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Raleway",Times,serif;
@@ -26,7 +26,7 @@
   padding-top: 100px;
   }
 #fourth {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/beachRoad.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/beachRoad-min.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Raleway",Times,serif;
@@ -35,7 +35,7 @@
   padding-top: 100px;
   }
   #fifth {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/sf7.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/sf7-min.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Raleway",Times,serif;
@@ -131,12 +131,7 @@ button.botButton  {
   color: blue
   font-size:30px;
 }
-/*img.box  {
-height: 400px;
-width: 530px;
-*/
 
-}
 .responsive-width {
     font-size: 3vw;
     word-break: 
