@@ -1,5 +1,5 @@
 var phrase = [ 'business' , 'life' , 'dream' , 'website' ];
-$.each(phrase,function(i, val){
+$(document.ready.each(phrase,function(i, val){
     setTimeout(function()  {
         $('#phrase').fadeOut("slow",function() {
             $(this).text(val).fadeIn("slow");
