@@ -1,22 +1,12 @@
 var phrase = [ 'business' , 'life' , 'dream' , 'website' ];
+
 $(document.ready.each(phrase,function(i, val){
     setTimeout(function()  {
         $('#phrase').fadeOut("slow",function() {
             $(this).text(val).fadeIn("slow");
         });
-    },i * 2000);
+    },i * 1800);
 });    
-
-$("#slideshow > div:gt(0)").hide();
-
-setInterval(function() {
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-}, 4000);
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -42,3 +32,4 @@ $(document).ready(function(){
     } // End if
   });
 });
+

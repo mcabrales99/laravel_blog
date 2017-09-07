@@ -60,23 +60,37 @@
     <h1 class="backg">My Background</h1>
     <div class="row">
             <p class="backp col-md-6">I served my community as an EMT for 16 years. In between that time I earned my degree, a Bachelors in Business Admin with a major in Computer Information Systems. Afterwards, I decided to attend a Software developer program and moved to San Antonio to achieve my goals. I currently reside here with my small family and support my Dallas Cowboys. </p>
-          <div id="slideshow" class="col-md-offset-6">
-             <div>
-               <img class="img-responsive" class="box" src="blog_img/medCare-min.jpg">
-             </div>
-             <div>
-               <img class="img-responsive" class="box" src="blog_img/valley-min.jpg">
-             </div>
-             <div>
-               <img class="img-responsive" class="box" src="blog_img/grad-min.jpg">
-             </div>
-             <div>
-               <img class="img-responsive" class="box" src="blog_img/codeup-min.jpg">
-             </div>
-             <div>
-               <img class="img-responsive" class="box" src="blog_img/cowboys-min.jpg">
-             </div>
+      <div class="row col-md-offset-6">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="blog_img/medCare-min.jpg" alt="...">
+                </div>
+                <div class="item">
+                  <img src="blog_img/valley-min.jpg" alt="...">
+                </div>
+                <div class="item">
+                  <img src="blog_img/grad-min.jpg" alt="...">
+                </div>
+                <div class="item">
+                  <img src="blog_img/codeup-min.jpg" alt="...">
+                </div>
+                <div class="item">
+                  <img src="blog_img/cowboys-min.jpg" alt="...">
+                </div>
+              </div>
+            </div>
           </div>
+</section>
     </div>
   </div>
 </section>

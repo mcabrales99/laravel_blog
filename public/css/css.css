@@ -96,23 +96,9 @@ p.descript   {
 #sec2module {
     padding: 70px;
 }
-img.cava{
+img.cava  {
 height: 300px;
 padding: 20px;
-}
-#slideshow {
-  position: relative;
-  width: 550px;
-  height: 450px;
-  padding: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-}
-#slideshow > div {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
 }
 p.backp {
   font-size: 22px;
@@ -136,3 +122,44 @@ button.botButton  {
     font-size: 3vw;
     word-break: 
 }
+/* Makes images fully responsive */
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+/* ------------------- Carousel Styling ------------------- */
+.carousel-inner {
+  border-radius: 15px;
+}
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+
+.section-white {
+   padding: 10px 0;
+}
+
+.section-white {
+  background-color: #fff;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+
+  .section-white {
+     padding: 1.5em 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .container {
+    max-width: 500px;
+  }
+
+}
+
