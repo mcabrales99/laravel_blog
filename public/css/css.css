@@ -96,10 +96,6 @@ p.descript   {
 #sec2module {
     padding: 70px;
 }
-img.cava  {
-height: 300px;
-padding: 20px;
-}
 p.backp {
   font-size: 22px;
   text-align: center;
@@ -158,7 +154,7 @@ button.botButton  {
 @media screen and (min-width: 992px) {
 
   .container {
-    max-width: 500px;
+    max-width: 100%;
   }
 
 }
