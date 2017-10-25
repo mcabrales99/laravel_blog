@@ -2,12 +2,12 @@
 @extends ('layouts.portfolioMaster')
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Welcome to my site! I am a web developer based out of San Antonio texas, I am ready to help you with building a site, facebook, Instagram, and Snapchat marketing. Come in and take a peek at some of my work!">
+<meta name="description" content="Welcome to my site! I am a web developer based out of San Antonio Texas. I am ready to help you with building a site, facebook, Instagram, and Snapchat marketing. Come in and take a peek at some of my work!">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet'>
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-<link rel="shortcut icon" href="{{ asset('/css/webDevicon.png') }}">
+<link rel="shortcut icon" href="{{ asset('css/webDevicon.png') }}">
 {{ HTML::style('css/css.css'); }} 
 {{ HTML::script('js/scrollTo.js'); }}
 @section('content')
@@ -130,4 +130,15 @@
 </div>
 <h3 class="title2">Thanks for visiting, hope to hear from you soon!</h3>
 </section>
+<script type="text/javascript">
+  
+  var phrase = [ 'business' , 'life' , 'dream' , 'website' ];
+$.each(phrase,function(i, val){
+    setTimeout(function()  {
+        $('#phrase').fadeOut("slow",function() {
+            $(this).text(val).fadeIn("slow");
+        });
+    },i * 1700);
+});
+</script>
 @stop

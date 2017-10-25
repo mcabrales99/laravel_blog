@@ -1,13 +1,14 @@
+'use strict';
 var phrase = [ 'business' , 'life' , 'dream' , 'website' ];
 
-$(document.ready.each(phrase,function(i, val){
+var sentence = $(each(phrase,function(i, val){
     setTimeout(function()  {
         $('#phrase').fadeOut("slow",function() {
             $(this).text(val).fadeIn("slow");
         });
     },i * 1800);
 });    
-
+setTimeout(sentence, 2000);
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {

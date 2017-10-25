@@ -1,3 +1,4 @@
+
 var phrase = [ 'business' , 'life' , 'dream' , 'website' ];
 $.each(phrase,function(i, val){
     setTimeout(function()  {
@@ -5,7 +6,8 @@ $.each(phrase,function(i, val){
             $(this).text(val).fadeIn("slow");
         });
     },i * 1700);
-});    
+});
+
 
 $("#slideshow > div:gt(0)").hide();
 
