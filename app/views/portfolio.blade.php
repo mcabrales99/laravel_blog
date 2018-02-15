@@ -50,7 +50,7 @@
           </div>
           <div class="col-sm-6">
             <h3 class="title">Condo on Parade!</h3> 
-            <a href="http//www.mcabrales99.github.io"><img class="img-responsive" src="blog_img/condoonparade.png"></a> 
+            <a href="://www.mcabrales99.github.io"><img class="img-responsive" src="blog_img/condoonparade.png"></a> 
           </div>
       </div>
 </div>
