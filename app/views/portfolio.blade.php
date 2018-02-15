@@ -2,7 +2,7 @@
 @extends ('layouts.portfolioMaster')
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Welcome to my site! I am a web developer based out of San Antonio Texas. I am ready to help you with building a site, facebook, Instagram, and Snapchat marketing. Come in and take a peek at some of my work!">
+<meta name="description" content="Welcome to my site! I am a web developer based out of San Antonio Texas. I am ready to help you with building a site. Come in and take a peek at some of my work!">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet'>
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -49,8 +49,8 @@
             <a href="http://www.cavazoscatering.com"><img class="img-responsive" src="blog_img/cavazosSS-min.png"></a> 
           </div>
           <div class="col-sm-6">
-            <h3 class="title">Mserrano Construction</h3> 
-            <a href="http://www.mserranoconstruction.com"><img class="img-responsive" src="blog_img/mserranoSS-min.png"></a> 
+            <h3 class="title">Condo on Parade!</h3> 
+            <a href="http://www.mcabrales99.github.io"><img class="img-responsive" src="blog_img/condoonparade.png"></a> 
           </div>
       </div>
 </div>
@@ -60,8 +60,50 @@
     <h1 class="backg">My Background</h1>
     <div class="row">
             <p class="backp col-md-6">I served my community as an EMT for 16 years. In between that time I earned my degree, a Bachelors in Business Admin with a major in Computer Information Systems. Afterwards, I decided to attend a Software developer program and moved to San Antonio to achieve my goals. I currently reside here with my small family and support my Dallas Cowboys. </p>
-      <div class="row col-md-offset-6">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+     <!--Carousel Wrapper-->
+<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active">
+            <img class="d-block w-50" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg" alt="First slide">
+        </div>
+        <!--/First slide-->
+        <!--Second slide-->
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg" alt="Second slide">
+        </div>
+        <!--/Second slide-->
+        <!--Third slide-->
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" alt="Third slide">
+        </div>
+        <!--/Third slide-->
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+</div>         
+            
+    <!--/.Slides-->
+            {{-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -89,7 +131,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
 </section>
 <section id="fifth">
     <div class="container">
@@ -139,6 +181,43 @@ $.each(phrase,function(i, val){
             $(this).text(val).fadeIn("slow");
         });
     },i * 1700);
+});
+
+
+// $("#slideshow > div:gt(0)").hide();
+
+// setInterval(function() {
+//   $('#slideshow > div:first')
+//     .fadeOut(1000)
+//     .next()
+//     .fadeIn(1000)
+//     .end()
+//     .appendTo('#slideshow');
+// }, 4000);
+
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
 });
 </script>
 @stop
