@@ -50,7 +50,7 @@
           </div>
           <div class="col-sm-6">
             <h3 class="title">Condo on Parade!</h3> 
-            <a href="mcabrales99.github.io"><img class="img-responsive" src="blog_img/condoonparade.png"></a> 
+            <a href="http//www.mcabrales99.github.io"><img class="img-responsive" src="blog_img/condoonparade.png"></a> 
           </div>
       </div>
 </div>
@@ -60,78 +60,7 @@
     <h1 class="backg">My Background</h1>
     <div class="row">
             <p class="backp col-md-6">I served my community as an EMT for 16 years. In between that time I earned my degree, a Bachelors in Business Admin with a major in Computer Information Systems. Afterwards, I decided to attend a Software developer program and moved to San Antonio to achieve my goals. I currently reside here with my small family and support my Dallas Cowboys. </p>
-     <!--Carousel Wrapper-->
-<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-    <!--Indicators-->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-    </ol>
-    <!--/.Indicators-->
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-        <!--First slide-->
-        <div class="carousel-item active">
-            <img class="d-block w-50" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg" alt="First slide">
-        </div>
-        <!--/First slide-->
-        <!--Second slide-->
-        <div class="carousel-item">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg" alt="Second slide">
-        </div>
-        <!--/Second slide-->
-        <!--Third slide-->
-        <div class="carousel-item">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" alt="Third slide">
-        </div>
-        <!--/Third slide-->
-    </div>
-    <!--/.Slides-->
-    <!--Controls-->
-    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    <!--/.Controls-->
 </div>
-<!--/.Carousel Wrapper-->
-</div>         
-            
-    <!--/.Slides-->
-            {{-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-              </ol>
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img src="blog_img/medCare-min.jpg" alt="...">
-                </div>
-                <div class="item">
-                  <img src="blog_img/valley-min.jpg" alt="...">
-                </div>
-                <div class="item">
-                  <img src="blog_img/grad-min.jpg" alt="...">
-                </div>
-                <div class="item">
-                  <img src="blog_img/codeup-min.jpg" alt="...">
-                </div>
-                <div class="item">
-                  <img src="blog_img/cowboys-min.jpg" alt="...">
-                </div>
-              </div>
-            </div>
-          </div> --}}
 </section>
 <section id="fifth">
     <div class="container">
@@ -182,18 +111,6 @@ $.each(phrase,function(i, val){
         });
     },i * 1700);
 });
-
-
-// $("#slideshow > div:gt(0)").hide();
-
-// setInterval(function() {
-//   $('#slideshow > div:first')
-//     .fadeOut(1000)
-//     .next()
-//     .fadeIn(1000)
-//     .end()
-//     .appendTo('#slideshow');
-// }, 4000);
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
